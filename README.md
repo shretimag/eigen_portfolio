@@ -98,7 +98,3 @@ pip install numpy pandas matplotlib yfinance seaborn
 Made with ❤️ by Shretima
 
 ---
-
-## 📄 License
-
-MIT License – use it freely!
