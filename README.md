@@ -95,7 +95,7 @@ pip install numpy pandas matplotlib yfinance seaborn
 
 ## 🧑‍💻 Author
 
-Made with ❤️ by Your Name
+Made with ❤️ by Shretima
 
 ---
 
