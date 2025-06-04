@@ -1,26 +1,104 @@
-# eigen_portfolio
-A project based on principle component analysis also known as PCA, which is used to reduce the data set of all the stock returns and give us the most suited stock returns. 
-The technique assumes that the data is normal and turns the numourous data into a linear map.
-The following are some features of the same.
+# 📊 Eigen Portfolio Optimization
 
-- **Data Preprocessing**: 
- Cleaning and preprocessing of financial data, including handling missing values, normalization, and scaling.
+Harness the power of PCA and Eigen decomposition for smarter investing.
 
-- **Principal Component Analysis (PCA)**: Implementing PCA to identify the principal components that explain the variance in the dataset.
+Welcome to Eigen Portfolio, a data science project that uses **Principal Component Analysis (PCA)** and **eigen decomposition** to create an optimized portfolio of assets. This project explores dimensionality reduction in finance and how eigenvectors and eigenvalues can guide investment strategies.
 
-- **Eigen Portfolio Construction**: Utilizing the eigenvectors obtained from PCA to construct the eigen portfolio, which is a weighted combination of assets.
+---
 
-- **Risk Management**: Assessing and managing risk associated with the eigen portfolio, including measures like volatility, covariance, and correlation.
+## 🧠 Core Idea
 
-- **Portfolio Optimization**: Optimizing the eigen portfolio by adjusting weights to achieve desired risk-return profiles or other objectives.
+The goal is to analyze historical price data of multiple stocks and extract the principal components that explain the most variance. These components are then used to allocate weights to the assets, forming an optimal portfolio.
 
-- **Performance Evaluation**: Evaluating the performance of the eigen portfolio using metrics such as Sharpe ratio, cumulative returns, and drawdown analysis.
+Key concepts include:
 
-- **Visualization**: Visualizing the results of PCA, eigen portfolio composition, and performance metrics through charts, graphs, and plots.
+* **Covariance matrices**
+* **Eigenvalues & eigenvectors**
+* **PCA in financial markets**
+* **Portfolio variance & risk**
 
-- **Backtesting**: Backtesting the eigen portfolio strategy to assess its historical performance under various market conditions.
+---
 
-- **Parameter Tuning**: Fine-tuning parameters of the PCA and portfolio optimization process to enhance performance and robustness.
+## 📂 Project Structure
 
-- **Deployment**: Deploying the eigen portfolio project into a usable application or system for real-world investment decision-making.
+```bash
+Eigen-Portfolio/
+├── Eigen Portfolio.ipynb     # Main Jupyter notebook
+├── README.md                 # You're reading it!
+└── data/                     # Historical stock data (if applicable)
+```
 
+---
+
+## ⚙️ What the Notebook Covers
+
+* ✅ **Data fetching** using `yfinance`
+* ✅ **Log returns** computation
+* ✅ **Covariance matrix** and its decomposition
+* ✅ **PCA-based portfolio construction**
+* ✅ **Eigen portfolio vs equal-weighted portfolio** comparison
+* ✅ **Visualization of risk-return tradeoff**
+
+---
+
+## 📈 Sample Outputs
+
+* Scree plot of explained variance
+* Portfolio weights based on eigenvectors
+* Comparative performance graphs
+
+---
+
+## 🚀 How to Run
+
+1.  **Clone the repo:**
+
+    ```bash
+    git clone [https://github.com/your-username/eigen-portfolio.git](https://github.com/your-username/eigen-portfolio.git)
+    cd eigen-portfolio
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the notebook:**
+
+    Open `Eigen Portfolio.ipynb` in Jupyter Notebook or VSCode and run all cells.
+
+---
+
+## 📦 Dependencies
+
+* `numpy`
+* `pandas`
+* `matplotlib`
+* `yfinance`
+* `seaborn`
+
+Install all using:
+
+```bash
+pip install numpy pandas matplotlib yfinance seaborn
+```
+
+---
+
+## 📚 Learn More
+
+* [PCA on Wikipedia](https://en.wikipedia.org/wiki/Principal_component_analysis)
+* [Modern Portfolio Theory](https://en.wikipedia.org/wiki/Modern_portfolio_theory)
+
+---
+
+## 🧑‍💻 Author
+
+Made with ❤️ by Your Name
+
+---
+
+## 📄 License
+
+MIT License – use it freely!
